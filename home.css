@@ -4,7 +4,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #AF79E2;
+  background-color: #FF5D47;
   border: none;
   border-radius: 4px;
   border-color: #101019;
@@ -12,7 +12,7 @@
   cursor: pointer;
   margin-left: : 70px
 }
-button:before {
+#button1:before {
 	content:'';
 	position: absolute;
 	top: 8px;
@@ -23,7 +23,7 @@ button:before {
 	border-radius: 5px;
 	transition: all 2s ease;
 }
-button:hover:before {
+#button1:hover:before {
 	width: 290px;
 }
 
@@ -45,7 +45,7 @@ button:hover:before {
  }
  #number {
      background-image: url(https://www.flaticon.com/svg/vstatic/svg/206/206640.svg?token=exp=1612891729~hmac=8b73f7b3df27e4801a4fdf3c1cc840be);
-     background-repeat: no-repeat; 
+     background-repeat: no-repeat;
      background-position: 4px;
      outline: none;
      -webkit-border-radius: 5px;
