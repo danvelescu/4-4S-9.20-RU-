@@ -15,17 +15,24 @@
 #button1:before {
 	content:'';
 	position: absolute;
-  down: 1500px;
-	top: 8px;
-	left: 777px;
 	width: 0;
-	height: 45px;
+	height: 100px;
 	background:rgba(255,255,255,0.3);
 	border-radius: 5px;
 	transition: all 2s ease;
 }
 #button1:hover:before {
 	width: 290px;
+}
+.photo-container{
+  float: left;
+  display: flex;
+  padding: 10px;
+}
+.photo{
+  padding: 10px;
+  border-color:red;
+  background-color: #181926
 }
 
  input[type=text] {
