@@ -4,7 +4,7 @@
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #FF5D47;
+  background-color: #9CA3DB;
   border: none;
   border-radius: 4px;
   border-color: #101019;
@@ -15,8 +15,9 @@
 #button1:before {
 	content:'';
 	position: absolute;
+  down: 1500px;
 	top: 8px;
-	left: 888px;
+	left: 777px;
 	width: 0;
 	height: 45px;
 	background:rgba(255,255,255,0.3);
@@ -49,12 +50,12 @@
      background-position: 4px;
      outline: none;
      -webkit-border-radius: 5px;
-     padding-left: 55px;
+     padding-left: 48px;
      height: 20px;
      font-size: 13px;
      margin-left: 70px;
      margin-right: 15px;
  }
  ::-webkit-input-placeholder {
-   color:    red;
+   color:    #677DB7;
 }
