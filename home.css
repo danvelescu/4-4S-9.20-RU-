@@ -492,7 +492,7 @@ body{
       width: 100%;
       border: 3px solid #00b4cc;
       border-right: none;
-      padding: 5px;
+      padding: 7px;
       height: 37px;
       border-radius: 5px 0 0 5px;
       outline: none;
@@ -504,6 +504,7 @@ body{
     }
 
     .searchButton {
+      margin-top: 6px;
       width: 40px;
       height: 36px;
       border: 1px solid #00b4cc;
@@ -520,7 +521,7 @@ body{
     .wrap {
       width: 30%;
       position: fixed;
-      top: 6%;
+      top: 11%;
       left: 82%;
       transform: translate(-50%, -50%);
     }
